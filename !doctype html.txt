@@ -9,12 +9,9 @@
 </head>
 <body class='text-zinc-900'>
   <div id='root'></div>
-
-  <!-- React & Recharts UMD bundles (needs internet when you open the file) -->
   <script crossorigin src='https://unpkg.com/react@18/umd/react.development.js'></script>
   <script crossorigin src='https://unpkg.com/react-dom@18/umd/react-dom.development.js'></script>
   <script src='https://unpkg.com/recharts/umd/Recharts.js'></script>
-
   <script>
     const { useState, useMemo } = React;
     const { BarChart, Bar, LineChart, Line, XAxis, YAxis, Tooltip, Legend, PieChart, Pie, Cell, ResponsiveContainer, CartesianGrid } = Recharts;
